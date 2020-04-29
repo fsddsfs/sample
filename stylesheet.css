@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+.container{
+  width: 90%;
+  margin: 25px auto;
+}
+.logo{
+  font-size: 80px;
+  font-family: 'DIN Condensed', sans-serif;
+  float: left;
+}
+.bar{
+  font-size: 40px;
+  float: right;
+  display: none;
+}
+li{
+  list-style: none;
+}
+header ul{
+  float: right;
+}
+header li{
+  float: left;
+  font-size: 9px;
+  margin-right: 4px;
+  padding: 0 4px;
+}
+header a:hover{
+  color: black;
+}
+header a{
+  text-decoration: none;
+  color: grey;
+}
+.online{
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+  padding: 0 7px;
+}
+.clear{
+  clear: both;
+}
+
+/*写真*/
+.pic{
+  width: 100%;
+  text-align: center;
+}
+
+/*ニュース*/
+
+.news h3{
+  padding-bottom: 25px;
+  opacity: 0.6;
+}
+.date{
+  width: 20%;
+  padding-left: 0;
+  display: inline-block;
+}
+.date li{
+  margin-bottom: 20px;
+  color: grey;
+}
+.con{
+  display: none;
+}
+.contents{
+  width: 78%;
+  display: inline-block;
+}
+.contents li{
+  margin-bottom: 15px;
+  font-size: ;
+}
+.contents a{
+  color: grey;
+  opacity: 0.6;
+}
+.contents a:hover{
+opacity: 1;
+}
+.new{
+  width: 100%;
+}
+
+/*アバウト*/
+.about h3{
+  padding: 25px 0;
+  opacity: 0.6;
+}
+.japaneseText{
+  font-size: 14px;
+  padding-bottom: 40px;
+  line-height: 27px;
+}
+.englishText{
+  font-size: 13px;
+  line-height: 32px;
+}

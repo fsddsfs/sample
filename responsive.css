@@ -1,0 +1,18 @@
+@media all and (max-width:755px){
+  header ul{
+    display: none;
+  }
+  .bar{
+    display: inline;
+    padding-top: 15px;
+  }
+  .contents{
+    display: none;
+  }
+  .con{
+    display: block;
+  }
+  .date{
+    width: 100%;
+  }
+}
